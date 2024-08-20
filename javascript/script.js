@@ -2,9 +2,31 @@
 
 
 
-    var Celsius = parseInt(prompt("Enter a Celsius : "));
+    var firstNumber = parseFloat(prompt("Enter a First Number : "));
+    var lastNumber = parseFloat(prompt("Enter a Last Number : "));
 
-    var fahrenheit =(Celsius * 9/5) + 32;
+    var result;
 
+    result = (firstNumber + lastNumber);
 
-    document.write(fahrenheit);
+    document.write(firstNumber + " + " + lastNumber + " = " + result + "<br>");
+    var result;
+
+    result = (firstNumber - lastNumber);
+
+    document.write(firstNumber + " - " + lastNumber + " = " + result + "<br>");
+    var result;
+
+    result = (firstNumber * lastNumber);
+
+    document.write(firstNumber + " x " + lastNumber + " = " + result + "<br>");
+    var result;
+
+    result = (firstNumber / lastNumber);
+
+    document.write(firstNumber + " / " + lastNumber + " = " + result + "<br>");
+    var result;
+
+    result = (firstNumber % lastNumber);
+
+    document.write(firstNumber + " % " + lastNumber + " = " + result + "<br>");
