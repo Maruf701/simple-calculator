@@ -2,31 +2,65 @@
 
 
 
-    var firstNumber = parseFloat(prompt("Enter a First Number : "));
-    var lastNumber = parseFloat(prompt("Enter a Last Number : "));
+    document.write(25 > 20); // true
 
-    var result;
+    document.write("<br>");
 
-    result = (firstNumber + lastNumber);
+    document.write(25 < 20); // False
 
-    document.write(firstNumber + " + " + lastNumber + " = " + result + "<br>");
-    var result;
+    document.write("<br>");
 
-    result = (firstNumber - lastNumber);
+    document.write(25 >= 25 ); // true
 
-    document.write(firstNumber + " - " + lastNumber + " = " + result + "<br>");
-    var result;
+    document.write("<br>");
 
-    result = (firstNumber * lastNumber);
+    document.write(25 <= 25 ); // true
 
-    document.write(firstNumber + " x " + lastNumber + " = " + result + "<br>");
-    var result;
 
-    result = (firstNumber / lastNumber);
+    document.write("<br>");
 
-    document.write(firstNumber + " / " + lastNumber + " = " + result + "<br>");
-    var result;
+    document.write(25 === "25" ); // False value of type Check 3 Equel
 
-    result = (firstNumber % lastNumber);
+    
 
-    document.write(firstNumber + " % " + lastNumber + " = " + result + "<br>");
+
+    document.write("<br>");
+
+    document.write(25 != 25 ); // False 
+
+    
+
+
+    document.write("<br>");
+    document.write("<br>");
+    document.write("<br>");
+
+
+    var x = 25;
+    var y = 20;
+    var z = 40;
+
+
+    document.write(x>y && x>z); // False
+
+    
+    document.write("<br>");
+    document.write("<br>");
+
+
+    var num1 = 30;
+    var num2 = 50;
+    var num3 = 15;
+
+
+    document.write(num1>num3 || num1>num2); // true
+
+    
+
+    
+    
+    document.write("<br>");
+    document.write("<br>");
+
+
+    document.write(!(5==4));
